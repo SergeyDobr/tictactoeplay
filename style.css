@@ -1,0 +1,66 @@
+body {
+   background-color: rgb(113, 130, 146);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+h2 {
+   font-size: 30px;
+}
+
+.game {
+   box-sizing: border-box;
+   margin: 0 15px;
+   width: 300px;
+   height: 300px;
+   background-color: rgb(132, 212, 248);
+   font-family: "Itim", cursive;
+}
+
+.block {
+   width: 33.333%;
+   height: 33.333%;
+   float: left;
+   border: 2px solid black;
+   box-sizing: border-box;
+   font-size: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.blue {
+   color: blue;
+   font-family: "Itim", cursive;
+}
+
+.green {
+   color: green;
+}
+
+.result {
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+
+button {
+   border-radius: 20px;
+   background-color: green;
+   color: #fff;
+   font-size: 30px;
+   padding: 10px;
+   display: flex;
+   border: 0;
+   transition: all .34s ease-in;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: rgb(183, 162, 162);
+   color: rgb(60, 46, 117);
+}
