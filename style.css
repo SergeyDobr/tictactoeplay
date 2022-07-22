@@ -23,8 +23,8 @@ h2 {
 }
 
 .block {
-   width: 33.333%;
-   height: 33.333%;
+   width: 100px;
+   height: 100px;
    float: left;
    border: 2px solid black;
    box-sizing: border-box;
